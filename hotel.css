@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.hotel-title {
+    background-color: #ff5200;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.hotel-title h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.navbar {
+    background-color:white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(246, 242, 242, 0.2);
+    
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    border-radius:30%;
+   /* border:2px solid #ff5200;*/
+    margin-left:2px;
+    
+}
+.logo img:hover{
+    box-shadow: 0 2px 5px black;
+    background-color: #ff5200;
+    
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.nav-links a {
+    color: rgb(23, 1, 1);
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color:white;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    color:#ff5200
+}
